@@ -1,19 +1,22 @@
-# Module: ${m}
-
-## Status
-- Pending insertion of approved, sanitised HTML.
+# Module: info_block
 
 ## When to use
-- TBD (needs approved guidance).
+- Highlight a set of benefits, inclusions, or key reasons to choose a product.
 
 ## Allowed edits
-- TBD
+- Section header text.
+- Icon image URLs.
+- Bullet/checker copy.
 
 ## Never change
-- TBD
+- Card layout, borders, or colours.
+- Font sizes and weights in the snippet.
 
 ## Example labels / parameters
-- TBD
+- Header: Why choose Dodo mobile?
+- Icon: <IMAGE_URL>
+- Bullet: Stay connected - no excess data charges or bill shock
 
 ## Styling constraints
-- TBD
+- Keep the header bar background and rounded corners intact.
+- Maintain checker icon sizes and spacing.

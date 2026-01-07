@@ -1,19 +1,25 @@
-# Module: ${m}
-
-## Status
-- Pending insertion of approved, sanitised HTML.
+# Module: pricing_panel
 
 ## When to use
-- TBD (needs approved guidance).
+- Marketing offers where price, inclusions, and a primary CTA need a visual block.
 
 ## Allowed edits
-- TBD
+- Plan title text (max 23 characters as indicated in the snippet).
+- Price value and unit (/mth).
+- CTA button label and link.
+- Image URL placeholders.
 
 ## Never change
-- TBD
+- Panel layout, colours, or typography.
+- CTA button styling.
 
 ## Example labels / parameters
-- TBD
+- Title: <PLAN_NAME>
+- Price: $<PRICE>/mth
+- CTA label: VIEW PLANS
+- CTA link: <LINK>
+- Image: <IMAGE_URL>
 
 ## Styling constraints
-- TBD
+- Keep purple header and border treatments intact.
+- Maintain provided padding and spacing.

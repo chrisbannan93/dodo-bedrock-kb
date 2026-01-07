@@ -1,19 +1,22 @@
-# Module: ${m}
-
-## Status
-- Pending insertion of approved, sanitised HTML.
+# Module: cta_primary
 
 ## When to use
-- TBD (needs approved guidance).
+- Primary action in service or marketing EDMs.
+- Use when there is one clear next step for the customer.
 
 ## Allowed edits
-- TBD
+- Button label text (capitalised).
+- Link URL (replace with approved destination).
 
 ## Never change
-- TBD
+- Button styling, colours, padding, font, or border.
+- Button label casing (must be capitalised).
 
 ## Example labels / parameters
-- TBD
+- Label: ACTIVATE NOW
+- Label: UPGRADE TODAY
+- Link: <LINK>
 
 ## Styling constraints
-- TBD
+- Keep colour, font, and size as provided in the snippet.
+- No underline in link text.

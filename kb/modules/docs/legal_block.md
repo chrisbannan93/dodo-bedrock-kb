@@ -1,19 +1,17 @@
-# Module: ${m}
-
-## Status
-- Pending insertion of approved, sanitised HTML.
+# Module: legal_block
 
 ## When to use
-- TBD (needs approved guidance).
+- Footer legal or compliance copy blocks.
 
 ## Allowed edits
-- TBD
+- Legal copy text.
 
 ## Never change
-- TBD
+- Font family, size, or colour.
+- Text alignment.
 
 ## Example labels / parameters
-- TBD
+- Legal copy: <LEGAL_COPY>
 
 ## Styling constraints
-- TBD
+- Keep small font size and white text as provided.
