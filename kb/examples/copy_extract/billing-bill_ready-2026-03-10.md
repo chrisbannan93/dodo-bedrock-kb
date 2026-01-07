@@ -8,15 +8,16 @@
 **source:** pending sanitised example
 
 ## Subject
-<SUBJECT_LINE_TBD>
+Your March bill is ready – view and pay now
 
 ## Preheader
-<PREHEADER_TBD>
+Check your invoice for 03 March to 02 April and make payment online today.
 
 ## Body (rendered text; NO PII)
-<BODY_COPY_TBD>
+Hi TestUser,
+Your electricity invoice for the period 03 March 2026 to 02 April 2026 is now available. Log in to MyDodo to view your bill and make payment securely. If you need help understanding your bill, check out our Bill Explainer.
 
 ## Notes (optional)
-- CTA label: <CTA_LABEL_TBD>
-- Offer / key details: <DETAILS_TBD>
-- Compliance notes: <NOTES_TBD>
+- CTA label: VIEW BILL
+- Offer / key details: Account Number: 123456789; Supply Address: 99 Test Street, Testville VIC 3999; Amount Due: $123.45; Due Date: 15 April 2026
+- Compliance notes: This is a system-generated email for testing purposes only.

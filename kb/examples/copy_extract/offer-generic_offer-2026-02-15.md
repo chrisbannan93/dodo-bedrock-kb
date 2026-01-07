@@ -8,15 +8,16 @@
 **source:** pending sanitised example
 
 ## Subject
-<SUBJECT_LINE_TBD>
+Limited-time offer – save big on your next plan
 
 ## Preheader
-<PREHEADER_TBD>
+Upgrade today and enjoy 50% off for the first 4 months.
 
 ## Body (rendered text; NO PII)
-<BODY_COPY_TBD>
+Hi TestUser,
+For a limited time, get 50% off selected mobile plans for your first 4 months. Upgrade now and enjoy faster speeds, more data, and unbeatable value. Hurry – offer ends 15 February 2026.
 
 ## Notes (optional)
-- CTA label: <CTA_LABEL_TBD>
-- Offer / key details: <DETAILS_TBD>
-- Compliance notes: <NOTES_TBD>
+- CTA label: UPGRADE NOW
+- Offer / key details: Offer: 50% off selected mobile plans; Eligibility: New and returning customers; Offer End Date: 15 February 2026
+- Compliance notes: This is a test promotional message for internal validation.

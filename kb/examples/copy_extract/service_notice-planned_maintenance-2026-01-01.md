@@ -8,15 +8,16 @@
 **source:** pending sanitised example
 
 ## Subject
-<SUBJECT_LINE_TBD>
+Scheduled maintenance – temporary service interruption
 
 ## Preheader
-<PREHEADER_TBD>
+Your internet service will be offline for a short period on 01 January 2026.
 
 ## Body (rendered text; NO PII)
-<BODY_COPY_TBD>
+Hi TestUser,
+We’re performing scheduled maintenance to improve your service. Your internet will be unavailable on 01 January 2026 between 2:00 AM and 4:00 AM AEST. No action is required on your part.
 
 ## Notes (optional)
-- CTA label: <CTA_LABEL_TBD>
-- Offer / key details: <DETAILS_TBD>
-- Compliance notes: <NOTES_TBD>
+- CTA label: LEARN MORE
+- Offer / key details: Maintenance Window: 01 January 2026, 2:00 AM – 4:00 AM AEST; Services Affected: Internet; Impact: Temporary outage during maintenance window
+- Compliance notes: This is a test notification for planned maintenance.
