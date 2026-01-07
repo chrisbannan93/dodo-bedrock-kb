@@ -1,15 +1,14 @@
-# Dodo Lexicon and Terminology (Pending Style Guide)
+# Dodo Lexicon and Terminology
 
-## Status
-- Pending extraction from the Dodo style guide.
-- No terms have been added yet to avoid inventing guidance.
+## Products and product terms
+- **nbn®**: Use **nbn®** when referencing a plan.
+- Include the **®** on first mention of **nbn®**.
+- Use **Internet** when referencing the product in general.
+- Use **Electricity** and **Gas** separately; never “DPG”.
+- Use **Energy** when referencing both gas and electricity together.
+- **SIM** is always capitalised. Never say “SIM card”.
+- Use **My Dodo** (never MyDodo or Mydodo.com).
 
-## Required Source Inputs
-- Preferred terms and phrases
-- Banned or discouraged terms
-- Product naming rules (e.g., nbn® first mention)
-- Brand and product capitalization rules
-
-## Notes for Editors
-- Keep each term in a short bullet with the preferred alternative.
-- Record legal marks (e.g., nbn®) exactly as specified in the guide.
+## Acronyms
+- Spell out internet acronyms on first use with the acronym in brackets, then use only the acronym.
+  - Example: Fiber On Demand (FOD)

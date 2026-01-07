@@ -1,14 +1,20 @@
-# Dodo CTA and Support Patterns (Pending Style Guide)
+# Dodo CTA and Support Patterns
 
-## Status
-- Pending extraction from the Dodo style guide and approved EDM modules.
-- No patterns have been added yet to avoid inventing guidance.
+## CTA guidance
+- Avoid phone numbers whenever possible unless regulated or approved by Service.
+- CTA button labels should be capitalised.
 
-## Required Source Inputs
-- Approved CTA labels and button text guidance
-- "We're here to help" block patterns
-- Phone support rules (when allowed, hours format)
-- Accessibility or link-label guidance
+## Approved support/CTA copy blocks
+### Call to action one
+- If you need more info or have any questions, click here.
 
-## Notes for Editors
-- For each pattern, include a short usage note and any constraints.
+### Call to action two (includes phone)
+- If you need more info or have any questions, email customercare@dodo.com.au or call 1300 374 757, Monday–Friday, 8am–7pm AEST.
+
+### Call to action three
+- We’re here to help
+- If you need more info or have any questions, log in to My Dodo and let us know.
+
+## “We’re here to help” block usage
+- Use when customers may need assistance, especially in service and billing comms.
+- If a phone number is included, always include operating hours and time zone.

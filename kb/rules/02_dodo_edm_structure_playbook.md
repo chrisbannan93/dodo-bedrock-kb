@@ -1,15 +1,26 @@
-# Dodo EDM Structure Playbook (Pending Style Guide)
+# Dodo EDM Structure Playbook
 
-## Status
-- Pending extraction from the Dodo style guide and approved EDM examples.
-- No structure guidance has been added yet to avoid inventing patterns.
+## Service EDM structure (recommended)
+- **Salutation:** Hey <FIRSTNAME>
+- **Purpose first:** State the key update in the first line.
+- **Details:** What’s changing, why it matters, and what the customer needs to do.
+- **Next step:** Clear action or reassurance.
+- **Support block:** Include “We’re here to help” guidance when support is relevant.
+- **Signoff:** Thanks / The Dodo team.
 
-## Required Source Inputs
-- Recommended structure for service EDMs
-- Recommended structure for marketing EDMs
-- Checklist items for each EDM type
-- Common layout patterns (subheads, CTA placement, support blocks)
+## Marketing EDM structure (recommended)
+- **Subject line:** Primary message first.
+- **Salutation:** Hey <FIRSTNAME>
+- **Value proposition:** Lead with the customer benefit.
+- **Offer details:** Key inclusions, price/discount, and time limits if applicable.
+- **CTA:** One clear action with a capitalised label.
+- **Support option:** Include a help line or self-service option if needed.
+- **Signoff (if used):** Thanks / The Dodo team.
 
-## Notes for Editors
-- Use checklist bullets to make retrieval easy.
-- Distinguish between **Required**, **Recommended**, and **Optional** elements when sourced.
+## CTA placement patterns
+- Use a primary CTA after the key offer or action point.
+- Use a secondary CTA only when needed (e.g., “Need help?” support link).
+
+## Compliance and system notes
+- If a communication is system-generated or no-reply, state this in the footer.
+- Include required compliance notes for regulated messages.
