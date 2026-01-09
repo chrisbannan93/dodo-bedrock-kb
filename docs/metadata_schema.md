@@ -1,7 +1,7 @@
 # Metadata Sidecar Schema (Bedrock KB)
 
 ## Overview
-Each KB document may include a sidecar file named `<filename>.metadata.json` stored next to the source file. Sidecars enable filtering and targeted retrieval.
+Each KB document may include a sidecar file named `<filename>.metadata.json` stored next to the source file. Sidecars enable filtering and targeted retrieval. Bedrock expects metadata under a top-level `metadataAttributes` object.
 
 - Keep sidecars under 10KB.
 - Use lower-case strings for stable filtering.
@@ -10,13 +10,15 @@ Each KB document may include a sidecar file named `<filename>.metadata.json` sto
 ## Base Schema (Minimal)
 ```json
 {
-  "brand": "dodo",
-  "channel": "edm",
-  "doc_type": "rule",
-  "campaign_type": "service_notice",
-  "product": "internet",
-  "module_type": "cta",
-  "format": "markdown"
+  "metadataAttributes": {
+    "brand": "dodo",
+    "channel": "edm",
+    "doc_type": "rule",
+    "campaign_type": "service_notice",
+    "product": "internet",
+    "module_type": "cta",
+    "format": "markdown"
+  }
 }
 ```
 
@@ -33,36 +35,42 @@ Each KB document may include a sidecar file named `<filename>.metadata.json` sto
 ### Rule document
 ```json
 {
-  "brand": "dodo",
-  "channel": "edm",
-  "doc_type": "rule",
-  "campaign_type": "other",
-  "product": "other",
-  "format": "markdown"
+  "metadataAttributes": {
+    "brand": "dodo",
+    "channel": "edm",
+    "doc_type": "rule",
+    "campaign_type": "other",
+    "product": "other",
+    "format": "markdown"
+  }
 }
 ```
 
 ### Module snippet
 ```json
 {
-  "brand": "dodo",
-  "channel": "edm",
-  "doc_type": "module",
-  "campaign_type": "other",
-  "product": "other",
-  "module_type": "cta",
-  "format": "html_snippet"
+  "metadataAttributes": {
+    "brand": "dodo",
+    "channel": "edm",
+    "doc_type": "module",
+    "campaign_type": "other",
+    "product": "other",
+    "module_type": "cta",
+    "format": "html_snippet"
+  }
 }
 ```
 
 ### Approved example
 ```json
 {
-  "brand": "dodo",
-  "channel": "edm",
-  "doc_type": "approved_example",
-  "campaign_type": "service_notice",
-  "product": "internet",
-  "format": "markdown"
+  "metadataAttributes": {
+    "brand": "dodo",
+    "channel": "edm",
+    "doc_type": "approved_example",
+    "campaign_type": "service_notice",
+    "product": "internet",
+    "format": "markdown"
+  }
 }
 ```
