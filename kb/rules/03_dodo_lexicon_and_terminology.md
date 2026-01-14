@@ -1,8 +1,8 @@
 # Dodo Lexicon and Terminology
 
 ## Products and product terms
-- **nbn®**: Use **nbn®** when referencing a plan.
-- Include the **®** on first mention of **nbn®**.
+- **nbn<sup>®</sup>**: Use **nbn<sup>®</sup>** when referencing a plan.
+- Include the **<sup>®</sup>** on first mention of **nbn<sup>®</sup>**.
 - Use **Internet** when referencing the product in general.
 - Use **Electricity** and **Gas** separately; never “DPG”.
 - Use **Energy** when referencing both gas and electricity together.

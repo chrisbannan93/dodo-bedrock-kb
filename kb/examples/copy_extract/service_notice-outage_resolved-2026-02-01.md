@@ -16,7 +16,7 @@ We’re sorry if this outage has impacted you
 ## Body (rendered text; NO PII)
 Hey <FIRSTNAME>
 
-nbn® has resolved the outage affecting your service. We’re sorry if this outage has impacted you.
+nbn<sup>®</sup> has resolved the outage affecting your service. We’re sorry if this outage has impacted you.
 
 If your service is still not working, please reset your modem by turning it off and on at the power point.
 

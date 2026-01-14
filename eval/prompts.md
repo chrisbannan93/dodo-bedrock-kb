@@ -9,7 +9,7 @@
    - **Expected characteristics:** Short, specific guidance; includes any length/format rules if present.
 4) **Prompt:** "How should dates and numbers be formatted in Dodo EDMs?"
    - **Expected characteristics:** Consistent formatting guidance; avoids speculation.
-5) **Prompt:** "What product naming conventions are required (e.g., nbn®)?"
+5) **Prompt:** "What product naming conventions are required (e.g., nbn<sup>®</sup>)?"
    - **Expected characteristics:** Exact terms and legal marks; no paraphrase changes.
 
 ## Service EDM Generation
