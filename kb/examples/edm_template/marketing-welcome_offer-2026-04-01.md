@@ -22,12 +22,13 @@
         <tr>
           <td style="padding:24px 30px;font-family:Arial,Helvetica,sans-serif;color:#353947;font-size:16px;line-height:24px;">
             <h1 style="margin:0 0 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:26px;line-height:32px;color:#470A68;">Welcome to Dodo Internet</h1>
-            <p style="margin:0 0 16px 0;">Hi &lt;FIRSTNAME&gt;, thanks for joining Dodo. Your new plan is ready and your modem is on its way.</p>
-            <p style="margin:0 0 24px 0;">Track delivery and set up your service with your account below.</p>
+            <p style="margin:0 0 16px 0;">Hey &lt;FIRSTNAME&gt;</p>
+            <p style="margin:0 0 16px 0;">Thanks for joining Dodo. Your new plan is ready and your modem is on its way.</p>
+            <p style="margin:0 0 24px 0;">Track delivery and set up your service in My Dodo below.</p>
             <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 24px 0;">
               <tr>
                 <td align="left">
-                  <a href="https://www.dodo.com/account" style="background:#0EE2B9;border:1px solid #0EE2B9;border-radius:3px;color:#353947;display:inline-block;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;line-height:13px;text-align:center;text-decoration:none;padding:13px 55px;">Go to my account</a>
+                  <a href="https://www.dodo.com/account" style="background:#0EE2B9;border:1px solid #0EE2B9;border-radius:3px;color:#353947;display:inline-block;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;line-height:13px;text-align:center;text-decoration:none;padding:13px 55px;">Log in to My Dodo</a>
                 </td>
               </tr>
             </table>

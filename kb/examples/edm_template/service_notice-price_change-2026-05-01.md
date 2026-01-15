@@ -28,11 +28,11 @@
             <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 24px 0;">
               <tr>
                 <td align="left">
-                  <a href="https://www.dodo.com/account" style="background:#0EE2B9;border:1px solid #0EE2B9;border-radius:3px;color:#353947;display:inline-block;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;line-height:13px;text-align:center;text-decoration:none;padding:13px 55px;">Log In to My Dodo</a>
+                  <a href="https://www.dodo.com/account" style="background:#0EE2B9;border:1px solid #0EE2B9;border-radius:3px;color:#353947;display:inline-block;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;line-height:13px;text-align:center;text-decoration:none;padding:13px 55px;">Log in to My Dodo</a>
                 </td>
               </tr>
             </table>
-            <p style="margin:0 0 16px 0;">We’re here to help. If you need more info or have any questions, <a href="https://www.dodo.com/account" style="color:#470A68;text-decoration:none;font-weight:bold;">log in to My Dodo</a> and let us know.</p>
+            <p style="margin:0 0 16px 0;">We’re here to help. If you need more info or have any questions, <a href="https://www.dodo.com/account" style="color:#470A68;text-decoration:underline;">log in to My Dodo</a> and let us know.</p>
             <p style="margin:0;">Thanks for being with Dodo</p>
           </td>
         </tr>
@@ -43,7 +43,7 @@
                 <td style="padding:20px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#826696;">
                   <p style="margin:0 0 8px 0;">{{BUSINESS_ADDRESS}}</p>
                   <p style="margin:0;">
-                    <a href="{{UNSUBSCRIBE_URL}}" style="color:#470A68;text-decoration:none;font-weight:bold;">Unsubscribe</a>
+                    <a href="{{UNSUBSCRIBE_URL}}" style="color:#470A68;text-decoration:underline;">Unsubscribe</a>
                   </p>
                 </td>
               </tr>
