@@ -32,7 +32,7 @@
                 </td>
               </tr>
             </table>
-            <p style="margin:0;">Need a hand? <a href="https://www.dodo.com/support" style="color:#470A68;text-decoration:none;font-weight:bold;">dodo.com/support</a> is ready when you are.</p>
+            <p style="margin:0;">Need a hand? <a href="https://www.dodo.com/support" style="color:#470A68;text-decoration:underline;">dodo.com/support</a> is ready when you’re.</p>
           </td>
         </tr>
         <tr>
@@ -42,7 +42,7 @@
                 <td style="padding:20px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#826696;">
                   <p style="margin:0 0 8px 0;">{{BUSINESS_ADDRESS}}</p>
                   <p style="margin:0;">
-                    <a href="{{UNSUBSCRIBE_URL}}" style="color:#470A68;text-decoration:none;font-weight:bold;">Unsubscribe</a>
+                    <a href="{{UNSUBSCRIBE_URL}}" style="color:#470A68;text-decoration:underline;">Unsubscribe</a>
                   </p>
                 </td>
               </tr>
