@@ -3,8 +3,21 @@
     "brand": "dodo",
     "channel": "edm",
     "doc_type": "module",
-    "campaign_type": "other",
-    "product": "other",
+    "campaign_type": [
+      "service_notice",
+      "offer",
+      "price_change",
+      "billing",
+      "outage",
+      "winback",
+      "other"
+    ],
+    "product": [
+      "internet",
+      "mobile",
+      "energy",
+      "other"
+    ],
     "module_type": "cta",
     "format": "html_snippet"
   }
