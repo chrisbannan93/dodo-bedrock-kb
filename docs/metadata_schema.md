@@ -5,6 +5,7 @@ Each KB document may include a sidecar file named `<filename>.metadata.json` sto
 
 - Keep sidecars under 10KB.
 - Use lower-case strings for stable filtering.
+- Use a single string value per field to align with strict equality filtering in retrieval.
 - Only include fields that apply to the file type.
 
 ## Base Schema (Minimal)
@@ -22,13 +23,16 @@ Each KB document may include a sidecar file named `<filename>.metadata.json` sto
 }
 ```
 
+## Multi-scope guidance
+If a document is valid for multiple scopes, prefer the most general applicable value (for example, `other`) so it can be matched by strict equality filters.
+
 ## Field Definitions
 - **brand**: Always `dodo`.
 - **channel**: Content channel, typically `edm` for email.
 - **doc_type**: `rule` | `approved_example` | `module`.
-- **campaign_type**: `service_notice` | `offer` | `price_change` | `billing` | `outage` | `winback` | `other`.
-- **product**: `internet` | `mobile` | `energy` | `other`.
-- **module_type** (modules only): `cta` | `support_block` | `pricing_panel` | `info_block` | `footer` | `legal` | `other`.
+- **campaign_type**: `service_notice` | `offer` | `price_change` | `billing` | `outage` | `winback` | `other`. Use a single string.
+- **product**: `internet` | `mobile` | `energy` | `other`. Use a single string.
+- **module_type** (modules only): `cta` | `support_block` | `pricing_panel` | `info_block` | `footer` | `legal` | `logo` | `other`.
 - **format**: `markdown` | `html_snippet`.
 
 ## Examples
