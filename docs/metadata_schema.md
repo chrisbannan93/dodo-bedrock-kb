@@ -5,7 +5,7 @@ Each KB document may include a sidecar file named `<filename>.metadata.json` sto
 
 - Keep sidecars under 10KB.
 - Use lower-case strings for stable filtering.
-- Use arrays of lower-case strings when a document legitimately applies to multiple scopes (for example, a shared rule that applies to multiple campaign types).
+- Use a single string value per field to align with strict equality filtering in retrieval.
 - Only include fields that apply to the file type.
 
 ## Base Schema (Minimal)
@@ -23,28 +23,15 @@ Each KB document may include a sidecar file named `<filename>.metadata.json` sto
 }
 ```
 
-## Multi-value fields (when applicable)
-If a document is valid for multiple scopes, store an array of lower-case strings instead of a single value.
-
-```json
-{
-  "metadataAttributes": {
-    "brand": "dodo",
-    "channel": "edm",
-    "doc_type": "rule",
-    "campaign_type": ["service_notice", "offer"],
-    "product": ["internet", "mobile"],
-    "format": "markdown"
-  }
-}
-```
+## Multi-scope guidance
+If a document is valid for multiple scopes, prefer the most general applicable value (for example, `other`) so it can be matched by strict equality filters.
 
 ## Field Definitions
 - **brand**: Always `dodo`.
 - **channel**: Content channel, typically `edm` for email.
 - **doc_type**: `rule` | `approved_example` | `module`.
-- **campaign_type**: `service_notice` | `offer` | `price_change` | `billing` | `outage` | `winback` | `other`. Use a single string or an array of strings if multiple apply.
-- **product**: `internet` | `mobile` | `energy` | `other`. Use a single string or an array of strings if multiple apply.
+- **campaign_type**: `service_notice` | `offer` | `price_change` | `billing` | `outage` | `winback` | `other`. Use a single string.
+- **product**: `internet` | `mobile` | `energy` | `other`. Use a single string.
 - **module_type** (modules only): `cta` | `support_block` | `pricing_panel` | `info_block` | `footer` | `legal` | `logo` | `other`.
 - **format**: `markdown` | `html_snippet`.
 
